@@ -8,6 +8,13 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/AvatarBinder/logo.png' }],
     ['link', { rel: 'apple-touch-icon', href: '/AvatarBinder/logo.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'AvatarBinder' }],
+    ['meta', { property: 'og:description', content: 'VRChatアバター管理を、もっとスマートに。' }],
+    ['meta', { property: 'og:image', content: 'https://mametarogg.github.io/AvatarBinder/SNS埋め込み画像.png' }],
+    ['meta', { property: 'og:url', content: 'https://mametarogg.github.io/AvatarBinder/' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://mametarogg.github.io/AvatarBinder/SNS埋め込み画像.png' }],
   ],
   themeConfig: {
     logo: '/logo.svg',
