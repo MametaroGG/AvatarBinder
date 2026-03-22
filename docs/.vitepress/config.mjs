@@ -5,6 +5,10 @@ export default defineConfig({
   description: "VRChatアバター管理を、もっとスマートに。",
   base: '/AvatarBinder/',
   lang: 'ja-JP',
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/AvatarBinder/logo.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/AvatarBinder/logo.png' }],
+  ],
   themeConfig: {
     logo: '/logo.svg',
     nav: [
