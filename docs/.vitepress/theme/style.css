@@ -45,44 +45,33 @@
   }
 }
 
-/* モバイル：画像を中央に大きく配置 */
+/* モバイル：画像を中央に適切なサイズで配置 */
 @media (max-width: 959px) {
-  .VPHero .image-container {
+  .VPHero .image-container,
+  .VPHero .image-container > div,
+  .VPHero .image {
     width: 100% !important;
-    max-width: 100vw !important;
+    max-width: 100% !important;
     height: auto !important;
     display: flex !important;
     justify-content: center !important;
-    margin-top: 96px !important;
+    align-items: center !important;
+  }
+
+  .VPHero .image-container {
+    margin-top: 40px !important;
     margin-bottom: 24px !important;
     padding: 0 !important;
   }
 
-  .VPHero .image-container > div {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    display: flex !important;
-    justify-content: center !important;
-  }
-
-  .VPHero .image {
-    width: 92vw !important;
-    max-width: 92vw !important;
-    height: auto !important;
-    margin: 0 auto !important;
-    padding: 0 !important;
-    display: flex !important;
-    justify-content: center !important;
-  }
-
   .VPHero .VPImage {
     position: static !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    width: 70vw !important;
+    max-width: 70vw !important;
     height: auto !important;
     max-height: none !important;
     transform: none !important;
     object-fit: contain !important;
+    margin: 0 auto !important;
   }
 }
