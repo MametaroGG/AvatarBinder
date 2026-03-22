@@ -1,0 +1,88 @@
+:root {
+  --vp-c-brand-1: #ff5500;
+  --vp-c-brand-2: #e64d00;
+  --vp-c-brand-3: #ff7733;
+  --vp-c-brand-soft: rgba(255, 85, 0, 0.16);
+}
+
+/* デスクトップ：ヒーロー画像を右半分に大きく配置 */
+@media (min-width: 960px) {
+  .VPHero .container {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+
+  .VPHero .main {
+    flex-shrink: 0 !important;
+  }
+
+  .VPHero .image-container {
+    flex-grow: 1 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .VPHero .VPImage {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    max-width: 600px !important;
+    max-height: 450px !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain !important;
+    transform: none !important;
+  }
+
+  .VPHero .image-bg {
+    display: none !important;
+  }
+
+  .VPFeatures {
+    margin-top: 40px !important;
+  }
+}
+
+/* モバイル：画像を中央に大きく配置 */
+@media (max-width: 959px) {
+  .VPHero .image-container {
+    width: 100% !important;
+    max-width: 100vw !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 96px !important;
+    margin-bottom: 24px !important;
+    padding: 0 !important;
+  }
+
+  .VPHero .image-container > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .VPHero .image {
+    width: 92vw !important;
+    max-width: 92vw !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .VPHero .VPImage {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    transform: none !important;
+    object-fit: contain !important;
+  }
+}

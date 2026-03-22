@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151515"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5500" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ff9900" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  
+  <g transform="translate(400, 200)">
+    <!-- Tech rings -->
+    <circle cx="0" cy="0" r="100" fill="none" stroke="url(#glow)" stroke-width="2" stroke-dasharray="10 5"/>
+    <circle cx="0" cy="0" r="140" fill="none" stroke="url(#glow)" stroke-width="4" stroke-opacity="0.5"/>
+    
+    <!-- Central nodes -->
+    <rect x="-30" y="-40" width="60" height="80" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ff9900" stroke-width="2"/>
+    <circle cx="0" cy="0" r="16" fill="#ff5500"/>
+    
+    <!-- Connecting lines -->
+    <path d="M-30 0 L-100 -50 M30 0 L100 50 M0 -40 L0 -100 M0 40 L0 100" stroke="#ff9900" stroke-opacity="0.4" stroke-width="2"/>
+    
+    <!-- Child nodes -->
+    <circle cx="-100" cy="-50" r="10" fill="#ff9900"/>
+    <circle cx="100" cy="50" r="10" fill="#ff5500"/>
+    <circle cx="0" cy="-100" r="10" fill="#ff9900"/>
+    <circle cx="0" cy="100" r="10" fill="#ff5500"/>
+  </g>
+</svg>
