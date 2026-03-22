@@ -21,7 +21,7 @@ export default defineConfig({
     nav: [
       { text: 'ホーム', link: '/' },
       { text: 'ガイド', link: '/guide/introduction' },
-      { text: '機能紹介', link: '/features/' },
+      { text: '機能紹介', link: '/features/library' },
       { text: 'よくある質問', link: '/faq' },
     ],
     sidebar: [
