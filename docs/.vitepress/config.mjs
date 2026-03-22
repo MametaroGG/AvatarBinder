@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AvatarBinder",
   description: "VRChatアバター管理を、もっとスマートに。",
+  base: '/AvatarBinder/',
   lang: 'ja-JP',
   themeConfig: {
     logo: '/logo.svg',
