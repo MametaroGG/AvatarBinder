@@ -6,7 +6,7 @@ hero:
   text: "VRChatアバター管理を、もっとスマートに。"
   tagline: "改変済みアバターのPrefabを効率的に整理・検索・管理。Unityエディタ内ですべてが完結します。"
   image:
-    src: /Avatar Binder.png
+    src: /Avatar Binder.webp
     alt: AvatarBinder
   actions:
     - theme: brand

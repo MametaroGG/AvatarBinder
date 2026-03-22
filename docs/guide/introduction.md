@@ -13,7 +13,7 @@
 
 ## 画面イメージ
 
-<img src="/AvatarBinderとは_画面イメージ.png" alt="メイン画面" style="max-width: 680px; width: 100%;">
+<img src="/AvatarBinderとは_画面イメージ.webp" alt="メイン画面" style="max-width: 680px; width: 100%;">
 
 ## 主な特徴
 
